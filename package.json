@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "ava": "^4.2.0",
-    "execa": "^6.1.0"
+    "execa": "^8.0.1"
   },
   "scripts": {
     "test": "LANG=en_US.UTF-8 ava",
