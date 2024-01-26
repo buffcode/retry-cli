@@ -22,7 +22,7 @@
     "retry": "^0.13.1"
   },
   "devDependencies": {
-    "ava": "^4.2.0",
+    "ava": "^6.1.0",
     "execa": "^6.1.0"
   },
   "scripts": {
