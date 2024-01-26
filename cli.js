@@ -43,7 +43,7 @@ operation.attempt(function (currentAttempt) {
   const ls = spawn(cmd[0], cmd.slice(1), {stdio: 'inherit'});
 
   function retryOrExit(code) {
-    const retrying = operation.retry();
+    const retrying = operation.retry(code);
     if (!retrying) {
       process.exit(code);
     }
